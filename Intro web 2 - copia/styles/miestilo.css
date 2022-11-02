@@ -1,0 +1,32 @@
+p {
+    color: navy;
+}
+pre {
+    color: aqua;
+}
+/* nos permite aplicarle un formato a todo 
+lo que no esté seleccionad*/
+*{
+    color: black;
+}
+strong {
+    color: brown
+}
+eme {
+    color: blue;
+}
+span {
+    color: white
+}
+.titulo {
+    color:orangered ;
+}
+.bl {
+    float: right;
+    background-color:red;
+    color: azure;
+}
+
+#selector {
+    color: beige;
+}

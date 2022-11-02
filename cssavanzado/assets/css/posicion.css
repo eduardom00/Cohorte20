@@ -1,0 +1,34 @@
+/* Posicion:static;
+relative, tiene como base la posición original del elemento*/
+*{
+    margin:0;
+    padding:0;
+
+}
+.padre{
+    border:3px dashed green;
+    
+
+}
+.cuadro{
+    border: 2px solid blue;
+    width: 200px;
+    height: 200px;
+}
+.uno{
+    background-color: blue;
+}
+/*Absolute: Retira el elemento de flujo normal del documento
+*/
+.dos{
+    background-color: red;
+    margin-left: 150px;
+    margin-bottom: 0px;
+    position: absolute;
+}
+/*Sticky: Debe haber suficiente espacio en su elemento*/
+.tres{
+    background-color: green;
+    position: sticky;
+    top:0px;
+}

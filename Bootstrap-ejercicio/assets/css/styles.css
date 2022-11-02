@@ -1,0 +1,10 @@
+.altura-img{
+    height: calc(100vh - 56px); 
+}
+.foto{
+    height:22rem;
+    border: 2px solid black;
+}
+.card-title{
+    text-align: center;
+}

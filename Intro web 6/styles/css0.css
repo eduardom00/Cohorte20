@@ -1,0 +1,25 @@
+.container {
+    background-color: blueviolet;
+    margin-top: 20px;
+}
+.uno{
+    background-color: aqua;
+}
+.dos{
+    background-color: bisque;
+}
+.ancho{
+    background-color: red;
+}
+body{
+    padding: 30px;
+}
+.nuno{
+    background-color: blue;
+}
+.ntres{
+    background-color: violet;
+}
+.ncinco{
+    background-color: red;
+}

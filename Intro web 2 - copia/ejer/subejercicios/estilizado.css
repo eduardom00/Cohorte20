@@ -1,0 +1,32 @@
+a{
+    color-scheme: black;
+}
+pre{
+    font-size: 1cm;
+}
+#division{
+    font-size: 38px;
+    border: 10px solid white;
+    width: 5cm;
+    height: 3cm;
+
+    overflow:visible;
+    margin: 1cm;
+    margin-left: auto;
+    padding: 12px;
+}
+.estilo{
+    width: 15%;
+    margin: auto;
+    padding-top:30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+.centrarimg{
+    border: 15px;
+    width: 60%;
+    margin: auto;
+    padding: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+}

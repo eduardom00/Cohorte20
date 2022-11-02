@@ -1,0 +1,57 @@
+*{
+    text-align: left;
+}
+.externo{
+    padding: auto;
+    border-collapse: separate;
+    border-right:black 2px solid;
+    border-bottom:black 2px solid;
+    border-top:rgb(201, 201, 201) 2px solid;
+    border-left:rgb(201, 201, 201) 2px solid;
+}
+td{
+padding:9px;
+border-collapse:separate;
+border-top:black 1px solid;
+border-left:black 1px solid;
+border-right:rgb(164, 162, 162) 1px solid;
+border-bottom:rgb(164, 162, 162) 1px solid;
+
+}
+.linea1{
+    color: teal;
+}
+.linea2{
+    color: red;
+}
+.linea3{
+    color: blue;
+}
+.linea4{
+    color: orange;
+}
+.linea5{
+    color: purple;
+}
+.linea6{
+    color: olive;
+}
+.linea7{
+    color: fuchsia;
+}
+.linea8{
+    color: green;
+}
+#blanco{
+    background-color: white;
+}
+#rojo{
+    background-color: red;
+}
+#verde{
+    background-color: green;
+}
+#azul{
+    background-color: blue;
+}
+

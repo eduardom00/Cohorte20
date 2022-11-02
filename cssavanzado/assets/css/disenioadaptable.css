@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Posicion:static;
+relative, tiene como base la posición original del elemento*/
+.padre{
+    border:3px dashed green;
+    display: flex;
+    flex-direction:row;
+    justify-content:space-around;
+    align-items: center;
+}
+.menu{
+    display: flex;
+    width: 400px;
+    justify-content: space-between;
+}
+.logo{
+    display: flex;
+    width: 300px;
+    justify-content: space-around;
+    align-items: center;
+}
+img{
+    width: 100px;
+}
+.cuadro{
+    width: 100px;
+    height: 100px;
+}
+.uno{
+    background-color: chartreuse;
+}
+
+.dos{
+    background-color: blue;
+}
+.tres{
+    background-color: purple;
+}
+/* row - fila
+justify content - horizontal
+align-items -vertical */
+
+/* column - columna
+justify content - verticañ
+align-items -horizontal */

@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;1,100&family=Montserrat:wght@500&family=Roboto+Slab:wght@300&family=Roboto:wght@500&family=Six+Caps&display=swap');
+.comic{
+    font-family: cursive;
+}
+.mont{
+    font-family:'Montserrat';
+}
+.roboto{
+    font-family: 'Roboto';
+}
+.lato{
+    font-family:'Lato';
+}
+.six{
+    font-family: 'Six Caps'
+}
+

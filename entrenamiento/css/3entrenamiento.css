@@ -1,0 +1,26 @@
+.square1{
+    background-color: rgb(207, 204, 204);
+    color: rgb(5, 5, 184);
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-left: 80px;
+    padding-right: 80px;
+    letter-spacing: 19px;
+    text-align: center;
+
+}
+i{
+    text-transform: initial;
+}
+h3{
+    letter-spacing: 8px;
+    color: brown;
+}
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+eme{
+    font-size: x-small;
+}

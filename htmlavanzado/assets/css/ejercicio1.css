@@ -1,0 +1,25 @@
+form{
+    padding: 50px;
+    color:white;
+    margin: 50px;
+    background-color: green;
+    display: inline-block;
+    width: 290px;
+    border: 5px solid blue;
+    border-radius: 4%;
+}
+label{
+    margin-left: 22px;
+    display: inline-block;
+    width: 80px;
+}
+#borde{
+    border-color: red;
+}
+#boton{
+    padding: 15px;
+    border-top-style: dashed;
+    margin-top: 20px;
+    width: 140px;
+    border-width: 2px;
+}

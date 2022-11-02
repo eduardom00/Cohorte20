@@ -1,0 +1,57 @@
+h2{
+    padding-left: 12px;
+}
+.azul{
+    background-color: #007BFF;
+    margin-top: 3px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    color: white;
+    padding-left:38px;
+}
+.col{
+    padding-bottom: 10px;
+}
+.gris{
+    padding-top:  30px;
+    padding-bottom:  30px;
+    color: white;
+    background-color:#6C757D;
+    margin-top: -8px;
+    text-align: center;
+}
+.white{
+    padding-bottom:30px;;
+    border: 1px solid black;
+}
+.productos{
+    border-bottom: 1px solid gray;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    margin-bottom: 15px;
+}
+.barra{
+    border-left: 1px solid gray;
+    padding-bottom: 100px;
+    margin-bottom: -30px;
+}
+.color{
+    margin: 10px;
+    padding-bottom: 100px;
+    text-align: start;
+    padding-right: 150px;
+}
+.pazul{
+    background-color: #007BFF;
+}
+.pamarillo{
+    background-color: #FFC107;
+}
+.projo{
+    background-color: #DC3545;
+}
+.azulc{
+    background-color: #17A2B8;
+    padding: 5px;
+    padding-left: 10px;
+}

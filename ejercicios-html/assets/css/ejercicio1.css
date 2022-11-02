@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+}
+body {
+    background-color:#808080 ;
+}
+a {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.div-1{
+    padding: 5px;
+    background-color: #54ff00;
+}
+.div-2{
+    margin-top: 0;
+    padding: 0;
+    background-color: #fbff00;
+}
+.div-3{
+    background-color: #505050;
+    margin-top: 30px;
+}

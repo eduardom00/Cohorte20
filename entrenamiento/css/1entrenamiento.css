@@ -1,0 +1,21 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.fuente1{
+    color: rgb(6, 40, 188);
+}
+.azul{
+    background-color: antiquewhite;
+}
+.fuente2{
+    color:rgb(50, 50, 50);
+    font-weight: 600;
+}
+#amarillo{
+    background-color: black;
+    color: yellow;
+    font-weight: 500;
+}
+a{
+    color: brown;
+}

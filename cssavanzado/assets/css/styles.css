@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;1,100&family=Montserrat:ital,wght@0,300;0,500;0,700;1,500&display=swap');
+*{
+    font-size: 20px;
+}
+.padre{
+    font-size: 17px;
+}
+.parrafo1{
+    font-family: cursi;
+    font-weight: 500;
+    font-size: 1rem;
+}
+.parrafo2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+/*Root en REM
+toma en cuenta el tamaño de fuente fijado por el navegador*/

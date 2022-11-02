@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Posicion:static;
+relative, tiene como base la posición original del elemento*/
+.padre{
+    border:3px dashed green;
+    display: flex;
+    flex-direction:row;
+    justify-content:space-around;
+    align-items: center;
+}
+.menu{
+    display: flex;
+    width: 400px;
+    justify-content: space-between;
+}
+.logo{
+    display: flex;
+    width: 300px;
+    justify-content: space-around;
+    align-items: center;
+}
+img{
+    width: 100px;
+}
+.cuadro{
+    width: 100px;
+    height: 100px;
+}
+.uno{
+    background-color: chartreuse;
+}
+
+.dos{
+    background-color: blue;
+}
+.tres{
+    background-color: purple;
+}
+/* row - fila
+justify content - horizontal
+align-items -vertical */
+
+/* column - columna
+justify content - verticañ
+align-items -horizontal */
+
+
+
+
+/* Las media Queris nos permite modificar el comportamiento de nuestra página 
+@media(){ }
+condiciona, si se cumple una condicións, entonces se aplica lo que hay dentro de la regla*/
+/*450px - celular
+800px - tablet
+1200px - desktop*/
+@media (max-width: 500px) {
+    .padre{
+        background-color: black;
+        flex-direction:column;
+        align-items: center;
+        height: auto;
+    }
+    h3{
+        display: none;
+    }
+    .logo{
+        -ms-flex-direction: column;
+        align-items: center;
+    }
+    .menu{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
