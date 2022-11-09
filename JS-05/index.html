@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manipulación del DOM</title>
+    <style>
+        .azul{
+            color:blue;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="etiqueta1" class="azul"><---- Ejemplo de Manipulación--> </h1>
+    <p id="etiqueta2" class="azul">Salu2 desde el DOM</p>
+    <p id="otro" class="azul"   >Soy otro párrafo</p>
+    <script>
+        /* let etiqueta =document.getElementById('etiqueta1');
+        console.log("Tipo de valor ETIQUETA "+ etiqueta);
+        /* mostrando el tag de etiqueta1 */
+        let parrafo =document.getElementById('etiqueta2');
+        console.log("Valor de etiqueta2 "+ parrafo.innerHTML);
+        /* GetElementByTanname */
+        let parrafos=document.getElementsByTagName('p'); Number:
+        for(let i=0;i<3; i++){
+        //Este nos deja repetir los datos del parrafo
+        /* console.log('Numero de parrafos: ' + parrafos[i].innerHTML); */
+        /* Numero de parrafos
+            console.log(`Numero de parrafos:  ${i}`);
+ */            
+//Numero de elementos con class
+ let parrafo4 = document.getElementsByClassName('azul')   
+ console.log(`Elementos class: ${parrafo4.length}`);
+        }
+        let parrafos2=document.getElementsByClassName('azul');
+        for(let i=0;i<parrafos2.length; i++){
+            console.log(`Numero de ${i} - parrafos con clase azul:  ${parrafos2[i].innerHTML}`);
+        }  
+    </script>
+ </body>
+</html>
