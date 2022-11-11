@@ -55,15 +55,40 @@ const obtenerNombre= async ()=>{
 }
 obtenerNombre()
 */
-const url = 'https://pokeapi.co/api/v2/pokemon/22';
+const cartaPokemon = document.getElementById('pokemon');
+const nombrePokemon = document.getElementById('nombre');
+const imagen = document.getElementById('img');
+const url = 'https://pokeapi.co/api/v2/pokemon/25';
+
 const pokedex1 = async () => {
     try {
         const respuesta = await fetch(url);
         const pokemon1 = await respuesta.json(); /*Ojito, aquí usamos dos veces await */
-        console.log(pokemon1);
+        console.log(pokemon1.name);
+
+        const datos1 ={
+            nombre: pokemon1.name,
+            imagen: pokemon1.sprites.other["official-artwork"].front_default
+        }
+        nombrePokemon.textContent=datos1.name;
+        imagen.innerHTML=`
+        <img src="${datos1.imagen}" alt="imagen de ${datos1.name}"
+        `
+
     }
     catch(error){
 
     }
 }
-pokedex1()
+pokedex1();
+
+
+
+
+form.addEventListener('submit', (evento) => {
+    //codigo
+    evento.preventDefault();
+    const valor=document.getElementById('idP').ariaValueMax;
+    console.log(valor);
+
+})
