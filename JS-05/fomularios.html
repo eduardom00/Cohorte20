@@ -13,7 +13,7 @@
         Apellido: <input type="text" name="apellido" value="Perez">
     </form>
     <button onclick="mostrarValores()"> Mostrar los valores </button>
-<div id="valores"> valores</div>
+<div id="valores">  </div>
 </body>
 <script>
     function mostrarValores(){
@@ -22,7 +22,7 @@
         for (let elemento of formulario){
             texto += elemento.value + '<br>';
         }
-        document.getElementById('valores').innerHTML = texto;
+        document.getElementById('valores').innerHTML = texto
 }
 
 

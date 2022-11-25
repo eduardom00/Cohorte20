@@ -22,20 +22,19 @@
         let parrafo =document.getElementById('etiqueta2');
         console.log("Valor de etiqueta2 "+ parrafo.innerHTML);
         /* GetElementByTanname */
-        let parrafos=document.getElementsByTagName('p'); Number:
-        for(let i=0;i<3; i++){
+        let parrafos=document.getElementsByTagName('p');
+        for(let i=0;i<2; i++){
         //Este nos deja repetir los datos del parrafo
-        /* console.log('Numero de parrafos: ' + parrafos[i].innerHTML); */
-        /* Numero de parrafos
-            console.log(`Numero de parrafos:  ${i}`);
- */            
+        console.log('Mensaje de parrafo: ' + parrafos[i].innerHTML);
+        /* Numero de parrafos*/
+            console.log(`Numero de parrafos:  ${i}`);            
 //Numero de elementos con class
  let parrafo4 = document.getElementsByClassName('azul')   
  console.log(`Elementos class: ${parrafo4.length}`);
         }
         let parrafos2=document.getElementsByClassName('azul');
         for(let i=0;i<parrafos2.length; i++){
-            console.log(`Numero de ${i} - parrafos con clase azul:  ${parrafos2[i].innerHTML}`);
+            console.log(`Archivo numero ${i} - parrafos con clase azul:  ${parrafos2[i].innerHTML}`);
         }  
     </script>
  </body>
