@@ -1,0 +1,9 @@
+SELECT * FROM categoria;
+SELECT * FROM productos;
+SELECT nombre, precio, existencia, idCategoria FROM productos WHERE idCategoria>=2;
+/* max, min */
+SELECT min(existencia) as existencia_minima, max(existencia) as existencia_maxima FROM productos;
+/* limit */
+SELECT * FROM productos limit 2,8;
+/* order by, asc,desc*/
+SELECT * FROM productos ORDER BY idCategoria DESC, existencia ASC;
