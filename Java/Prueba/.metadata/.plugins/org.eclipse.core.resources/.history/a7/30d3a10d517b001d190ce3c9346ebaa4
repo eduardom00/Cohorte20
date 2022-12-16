@@ -1,0 +1,19 @@
+package cajero;
+
+import java.util.Scanner;
+
+public class cajero1 {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Escoge una selección\n"
+				+ "Escriba 1 para consultar saldo\n"
+				+ "Escriba 2 para ingresar dinero\n"
+				+ "Escriba 3 para sacar dinero \n"
+				+ "Escriba 4 para consultar sus movimientos");
+		int valor = sc.nextInt();	
+		System.out.println("ingresaste" + valor);
+	}
+	
+	
+}
