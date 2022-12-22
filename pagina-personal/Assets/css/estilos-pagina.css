@@ -1,0 +1,44 @@
+body{
+    background-color: black;
+    color: aliceblue;
+}
+.CV{
+    max-width: 100% ;
+    margin-top: -3rem;
+
+}
+hr{
+    width: 85%;
+    border-width:.2rem;
+}
+.card-title{
+    color: black;
+}
+
+.relativo{
+    position:absolute;
+}
+h1{
+    font-size: 550%;
+}
+.Encabezado:hover{
+    color: rgb(230, 7, 171);
+}
+h5:hover{
+color: rgba(230, 7, 171, 0.308);
+}
+.card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+}
+u{
+    text-decoration: underline rgb(230, 7, 170);
+    text-decoration-thickness: 5px;
+}
+p{
+    font-size: larger;
+}
+a{
+    text-decoration: none;
+}
