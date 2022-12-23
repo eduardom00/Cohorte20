@@ -1,11 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=IBM+Plex+Mono:wght@600;700&family=Roboto+Mono&family=Varela+Round&display=swap');
 body{
-    background-color: black;
+    background-image: url(../img/fondom.gif);
+    background-attachment: fixed;
+    background-size:cover;    
+    height: 100vh;
+    padding:0;
+    margin:0;
     color: aliceblue;
+}
+h4{
+    
+    color: rgb(0, 0, 0);
+}
+h4:hover{
+    color: rgb(255, 255, 255);
+}
+.btn{
+    border: none;
 }
 .CV{
     max-width: 100% ;
-    margin-top: -3rem;
-
+    margin-top: -8rem;
 }
 hr{
     width: 85%;
@@ -19,26 +34,90 @@ hr{
     position:absolute;
 }
 h1{
-    font-size: 550%;
+    font-size: 500%;
+    font-family: 'IBM Plex Mono', monospace;
 }
 .Encabezado:hover{
     color: rgb(230, 7, 171);
-}
-h5:hover{
-color: rgba(230, 7, 171, 0.308);
 }
 .card-img-top {
     width: 100%;
     height: 15vw;
     object-fit: cover;
 }
+.card-img{
+    margin:auto;
+    width: 80%;
+    height: 20vw;
+    object-fit: cover;
+    opacity: .8;
+}
+h2{
+    font-family: 'Roboto Mono', monospace;
+}
 u{
     text-decoration: underline rgb(230, 7, 170);
     text-decoration-thickness: 5px;
 }
 p{
+    
     font-size: larger;
 }
 a{
     text-decoration: none;
+    color: aliceblue;
+}
+.card-body{
+    background-color: #a09fa0;
+}
+.card{
+    border:none;
+    background:none;
+}
+.project{
+background-color: #039a308f;
+}
+.fondo{
+    background-color: #03039ac3;
+}
+.ultimo{
+    margin-top: 12%;
+}
+.edu{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 300%;
+    background-color: rgba(243, 237, 237, 0.459);
+}
+.edu:hover{
+    background-color: #00000000;
+}
+.edu:hover span{
+    display: none; 
+}
+.edu#enes:hover:before{
+    content: "Egresado de Economia Industrial por parte de la UNAM";
+    font-size: 60%;
+    background-color: rgba(243, 237, 237, 0.759);
+    padding: -1%;
+    margin: -2%;
+}
+.edu#tedx:hover:before{
+    content: 'Auxiliar de TEDxUNAMLeón 2020 y Co-Organizador del TEDxUNAMLeón Edición 2021';
+    font-size: 60%;
+    background-color: rgba(243, 237, 237, 0.759);
+    padding: -1%;
+    margin-top: -8%;
+}
+.edu#generation:hover:before{
+    content: "Bootcamp intensivo para el desarrollo de habilidades blandas y habilidades técnicas para el desarrollo web";
+    font-size: 60%;
+    background-color: rgba(243, 237, 237, 0.759);
+    padding: -.5%;
+    margin: 0%;
+}
+.ultimos-simbolos{
+    margin-top: 7%;
 }
